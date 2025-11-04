@@ -1,5 +1,93 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*utility*/
+
+.bottom-divider{
+    border-bottom: 2px solid lightgray;
+}
+.background-white{
+    background-color: white;
+}
+.background-gray{
+    background-color: lightgrey;
+}
+.background-blue{
+    background-color: lightskyblue;
+}
+.background-orange{
+    background-color: orange;
+}
+.background-purple{
+    background-color: purple;
+}
+.background-violet{
+    background-color: violet;
+}
+.background-green{
+    background-color:green;
+}
+.background-lightgreen{
+    background-color: greenyellow;
+}
+.text-color-white{
+    color: white;
+}
+.text-color-gray{
+    color: lightgray;
+}
+.circle-text{
+    font-size: 10px;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 25%;
+}
+
+
+
+
+.navbar {
+   padding: 20px;
+}
+
+.navbar .navbar-img {
+    width: 50px;
+    vertical-align: middle;
+}
+
+.navbar .navbar-title {
+    display: inline;
+    vertical-align: middle;
+}
+
+.style {
+    padding-top: 30px;
+    width: 600px;
+    margin: 0 auto;
+}
+.button-section{
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.buttons{
+    padding: 5px;
+    display: inline-block;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 3px;
+}
+.list{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+.linee-lista{
+    list-style: none;
+    padding-left: 50px;
 }
